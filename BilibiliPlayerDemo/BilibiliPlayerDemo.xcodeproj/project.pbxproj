@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA56D8C42086CDED000FBDB3 /* BilibiliAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8C32086CDED000FBDB3 /* BilibiliAppDelegate.m */; };
+		AA56D8CA2086CDED000FBDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8C82086CDED000FBDB3 /* Main.storyboard */; };
+		AA56D8CF2086CDED000FBDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8CD2086CDED000FBDB3 /* LaunchScreen.storyboard */; };
+		AA56D8D22086CDED000FBDB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8D12086CDED000FBDB3 /* main.m */; };
+		AA56D8ED2086CFF7000FBDB3 /* IJKDemoInputURLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8DB2086CFF5000FBDB3 /* IJKDemoInputURLViewController.xib */; };
+		AA56D8EE2086CFF7000FBDB3 /* IJKDemoLocalFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8DC2086CFF5000FBDB3 /* IJKDemoLocalFolderViewController.m */; };
+		AA56D8EF2086CFF7000FBDB3 /* IJKDemoMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8DE2086CFF5000FBDB3 /* IJKDemoMainViewController.xib */; };
+		AA56D8F02086CFF7000FBDB3 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8E02086CFF6000FBDB3 /* IJKMoviePlayerViewController.m */; };
+		AA56D8F12086CFF7000FBDB3 /* IJKQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8E12086CFF6000FBDB3 /* IJKQRCodeScanViewController.m */; };
+		AA56D8F22086CFF7000FBDB3 /* IJKQRCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8E22086CFF6000FBDB3 /* IJKQRCodeScanViewController.xib */; };
+		AA56D8F32086CFF7000FBDB3 /* IJKDemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8E32086CFF6000FBDB3 /* IJKDemoMainViewController.m */; };
+		AA56D8F42086CFF7000FBDB3 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8E42086CFF6000FBDB3 /* IJKMoviePlayerViewController.xib */; };
+		AA56D8F52086CFF7000FBDB3 /* IJKDemoInputURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8E62086CFF6000FBDB3 /* IJKDemoInputURLViewController.m */; };
+		AA56D8F62086CFF7000FBDB3 /* IJKDemoSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA56D8EA2086CFF6000FBDB3 /* IJKDemoSampleViewController.xib */; };
+		AA56D8F72086CFF7000FBDB3 /* IJKDemoSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8EB2086CFF6000FBDB3 /* IJKDemoSampleViewController.m */; };
+		AA56D8F82086CFF7000FBDB3 /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8EC2086CFF6000FBDB3 /* IJKMediaControl.m */; };
+		AA56D8FF2086D29E000FBDB3 /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8FB2086D29E000FBDB3 /* IJKDemoHistory.m */; };
+		AA56D9002086D29E000FBDB3 /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = AA56D8FC2086D29E000FBDB3 /* Barcode.m */; };
+		AA56D9052086D9E2000FBDB3 /* AppIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D9042086D9E2000FBDB3 /* AppIcons.xcassets */; };
+		AA56D9072086D9F6000FBDB3 /* LaunchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D9062086D9F6000FBDB3 /* LaunchImages.xcassets */; };
+		AA56D9092086DA0B000FBDB3 /* MoviePlayerImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D9082086DA0B000FBDB3 /* MoviePlayerImages.xcassets */; };
+		AA56D911208724FC000FBDB3 /* class_9_the_human_ear_01.flv in Resources */ = {isa = PBXBuildFile; fileRef = AA56D910208724FC000FBDB3 /* class_9_the_human_ear_01.flv */; };
+		AA56D91320872504000FBDB3 /* NOW+YOONA.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA56D91220872504000FBDB3 /* NOW+YOONA.mp4 */; };
+		D614AAA3FB8F4D3369F3E6A4 /* libPods-BilibiliPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4AA818E86CFDB10DFBAE98 /* libPods-BilibiliPlayerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DD3C78168912F887AA3606D /* Pods-BilibiliPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilibiliPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BilibiliPlayerDemo/Pods-BilibiliPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4AA818E86CFDB10DFBAE98 /* libPods-BilibiliPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BilibiliPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56D8BF2086CDED000FBDB3 /* BilibiliPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilibiliPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56D8C22086CDED000FBDB3 /* BilibiliAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BilibiliAppDelegate.h; sourceTree = "<group>"; };
+		AA56D8C32086CDED000FBDB3 /* BilibiliAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilibiliAppDelegate.m; sourceTree = "<group>"; };
+		AA56D8C92086CDED000FBDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA56D8CE2086CDED000FBDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA56D8D02086CDED000FBDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA56D8D12086CDED000FBDB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA56D8DA2086CFF5000FBDB3 /* IJKDemoLocalFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoLocalFolderViewController.h; sourceTree = "<group>"; };
+		AA56D8DB2086CFF5000FBDB3 /* IJKDemoInputURLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoInputURLViewController.xib; sourceTree = "<group>"; };
+		AA56D8DC2086CFF5000FBDB3 /* IJKDemoLocalFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoLocalFolderViewController.m; sourceTree = "<group>"; };
+		AA56D8DD2086CFF5000FBDB3 /* IJKDemoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoMainViewController.h; sourceTree = "<group>"; };
+		AA56D8DE2086CFF5000FBDB3 /* IJKDemoMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoMainViewController.xib; sourceTree = "<group>"; };
+		AA56D8DF2086CFF5000FBDB3 /* IJKDemoSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoSampleViewController.h; sourceTree = "<group>"; };
+		AA56D8E02086CFF6000FBDB3 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
+		AA56D8E12086CFF6000FBDB3 /* IJKQRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKQRCodeScanViewController.m; sourceTree = "<group>"; };
+		AA56D8E22086CFF6000FBDB3 /* IJKQRCodeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKQRCodeScanViewController.xib; sourceTree = "<group>"; };
+		AA56D8E32086CFF6000FBDB3 /* IJKDemoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoMainViewController.m; sourceTree = "<group>"; };
+		AA56D8E42086CFF6000FBDB3 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		AA56D8E52086CFF6000FBDB3 /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
+		AA56D8E62086CFF6000FBDB3 /* IJKDemoInputURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoInputURLViewController.m; sourceTree = "<group>"; };
+		AA56D8E72086CFF6000FBDB3 /* IJKQRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKQRCodeScanViewController.h; sourceTree = "<group>"; };
+		AA56D8E82086CFF6000FBDB3 /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMediaControl.h; sourceTree = "<group>"; };
+		AA56D8E92086CFF6000FBDB3 /* IJKDemoInputURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoInputURLViewController.h; sourceTree = "<group>"; };
+		AA56D8EA2086CFF6000FBDB3 /* IJKDemoSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoSampleViewController.xib; sourceTree = "<group>"; };
+		AA56D8EB2086CFF6000FBDB3 /* IJKDemoSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoSampleViewController.m; sourceTree = "<group>"; };
+		AA56D8EC2086CFF6000FBDB3 /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMediaControl.m; sourceTree = "<group>"; };
+		AA56D8FA2086D29D000FBDB3 /* IJKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKCommon.h; sourceTree = "<group>"; };
+		AA56D8FB2086D29E000FBDB3 /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoHistory.m; sourceTree = "<group>"; };
+		AA56D8FC2086D29E000FBDB3 /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
+		AA56D8FD2086D29E000FBDB3 /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		AA56D8FE2086D29E000FBDB3 /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoHistory.h; sourceTree = "<group>"; };
+		AA56D9012086D304000FBDB3 /* BilibiliPlayer-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BilibiliPlayer-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AA56D9042086D9E2000FBDB3 /* AppIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcons.xcassets; sourceTree = "<group>"; };
+		AA56D9062086D9F6000FBDB3 /* LaunchImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchImages.xcassets; sourceTree = "<group>"; };
+		AA56D9082086DA0B000FBDB3 /* MoviePlayerImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MoviePlayerImages.xcassets; sourceTree = "<group>"; };
+		AA56D910208724FC000FBDB3 /* class_9_the_human_ear_01.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = class_9_the_human_ear_01.flv; sourceTree = "<group>"; };
+		AA56D91220872504000FBDB3 /* NOW+YOONA.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NOW+YOONA.mp4"; sourceTree = "<group>"; };
+		FDA8CA46F25E2AFAF8C9F2C1 /* Pods-BilibiliPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilibiliPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BilibiliPlayerDemo/Pods-BilibiliPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA56D8BC2086CDED000FBDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D614AAA3FB8F4D3369F3E6A4 /* libPods-BilibiliPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121479C5851C1CDF56623170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4AA818E86CFDB10DFBAE98 /* libPods-BilibiliPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C7BA3A7F0CF9666BE7D290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DD3C78168912F887AA3606D /* Pods-BilibiliPlayerDemo.debug.xcconfig */,
+				FDA8CA46F25E2AFAF8C9F2C1 /* Pods-BilibiliPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA56D8B62086CDED000FBDB3 = {
+			isa = PBXGroup;
+			children = (
+				AA56D8C12086CDED000FBDB3 /* BilibiliPlayerDemo */,
+				AA56D8C02086CDED000FBDB3 /* Products */,
+				16C7BA3A7F0CF9666BE7D290 /* Pods */,
+				121479C5851C1CDF56623170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA56D8C02086CDED000FBDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D8BF2086CDED000FBDB3 /* BilibiliPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA56D8C12086CDED000FBDB3 /* BilibiliPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D90F208724F1000FBDB3 /* Videos */,
+				AA56D8F92086D289000FBDB3 /* Miscellaneous */,
+				AA56D8D92086CFE7000FBDB3 /* View Controllers */,
+				AA56D9032086D9CA000FBDB3 /* XCAssets */,
+				AA56D8C22086CDED000FBDB3 /* BilibiliAppDelegate.h */,
+				AA56D8C32086CDED000FBDB3 /* BilibiliAppDelegate.m */,
+				AA56D8C82086CDED000FBDB3 /* Main.storyboard */,
+				AA56D8CD2086CDED000FBDB3 /* LaunchScreen.storyboard */,
+				AA56D8D02086CDED000FBDB3 /* Info.plist */,
+				AA56D8D12086CDED000FBDB3 /* main.m */,
+				AA56D9012086D304000FBDB3 /* BilibiliPlayer-PrefixHeader.pch */,
+			);
+			path = BilibiliPlayerDemo;
+			sourceTree = "<group>";
+		};
+		AA56D8D92086CFE7000FBDB3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D8E92086CFF6000FBDB3 /* IJKDemoInputURLViewController.h */,
+				AA56D8E62086CFF6000FBDB3 /* IJKDemoInputURLViewController.m */,
+				AA56D8DB2086CFF5000FBDB3 /* IJKDemoInputURLViewController.xib */,
+				AA56D8DA2086CFF5000FBDB3 /* IJKDemoLocalFolderViewController.h */,
+				AA56D8DC2086CFF5000FBDB3 /* IJKDemoLocalFolderViewController.m */,
+				AA56D8DD2086CFF5000FBDB3 /* IJKDemoMainViewController.h */,
+				AA56D8E32086CFF6000FBDB3 /* IJKDemoMainViewController.m */,
+				AA56D8DE2086CFF5000FBDB3 /* IJKDemoMainViewController.xib */,
+				AA56D8DF2086CFF5000FBDB3 /* IJKDemoSampleViewController.h */,
+				AA56D8EB2086CFF6000FBDB3 /* IJKDemoSampleViewController.m */,
+				AA56D8EA2086CFF6000FBDB3 /* IJKDemoSampleViewController.xib */,
+				AA56D8E82086CFF6000FBDB3 /* IJKMediaControl.h */,
+				AA56D8EC2086CFF6000FBDB3 /* IJKMediaControl.m */,
+				AA56D8E52086CFF6000FBDB3 /* IJKMoviePlayerViewController.h */,
+				AA56D8E02086CFF6000FBDB3 /* IJKMoviePlayerViewController.m */,
+				AA56D8E42086CFF6000FBDB3 /* IJKMoviePlayerViewController.xib */,
+				AA56D8E72086CFF6000FBDB3 /* IJKQRCodeScanViewController.h */,
+				AA56D8E12086CFF6000FBDB3 /* IJKQRCodeScanViewController.m */,
+				AA56D8E22086CFF6000FBDB3 /* IJKQRCodeScanViewController.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AA56D8F92086D289000FBDB3 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D8FD2086D29E000FBDB3 /* Barcode.h */,
+				AA56D8FC2086D29E000FBDB3 /* Barcode.m */,
+				AA56D8FA2086D29D000FBDB3 /* IJKCommon.h */,
+				AA56D8FE2086D29E000FBDB3 /* IJKDemoHistory.h */,
+				AA56D8FB2086D29E000FBDB3 /* IJKDemoHistory.m */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		AA56D9032086D9CA000FBDB3 /* XCAssets */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D9042086D9E2000FBDB3 /* AppIcons.xcassets */,
+				AA56D9062086D9F6000FBDB3 /* LaunchImages.xcassets */,
+				AA56D9082086DA0B000FBDB3 /* MoviePlayerImages.xcassets */,
+			);
+			path = XCAssets;
+			sourceTree = "<group>";
+		};
+		AA56D90F208724F1000FBDB3 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				AA56D91220872504000FBDB3 /* NOW+YOONA.mp4 */,
+				AA56D910208724FC000FBDB3 /* class_9_the_human_ear_01.flv */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA56D8BE2086CDED000FBDB3 /* BilibiliPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA56D8D52086CDED000FBDB3 /* Build configuration list for PBXNativeTarget "BilibiliPlayerDemo" */;
+			buildPhases = (
+				5593FD35B501AE5FC2D8EFE9 /* [CP] Check Pods Manifest.lock */,
+				AA56D8BB2086CDED000FBDB3 /* Sources */,
+				AA56D8BC2086CDED000FBDB3 /* Frameworks */,
+				AA56D8BD2086CDED000FBDB3 /* Resources */,
+				A44FD5F414EA8A766A635F10 /* [CP] Embed Pods Frameworks */,
+				77F1CD093DBE7E102DB0DEE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BilibiliPlayerDemo;
+			productName = BilibiliPlayerDemo;
+			productReference = AA56D8BF2086CDED000FBDB3 /* BilibiliPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA56D8B72086CDED000FBDB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "MTX Software Technology Co.,Ltd.";
+				TargetAttributes = {
+					AA56D8BE2086CDED000FBDB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA56D8BA2086CDED000FBDB3 /* Build configuration list for PBXProject "BilibiliPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA56D8B62086CDED000FBDB3;
+			productRefGroup = AA56D8C02086CDED000FBDB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA56D8BE2086CDED000FBDB3 /* BilibiliPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA56D8BD2086CDED000FBDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA56D8EF2086CFF7000FBDB3 /* IJKDemoMainViewController.xib in Resources */,
+				AA56D8CF2086CDED000FBDB3 /* LaunchScreen.storyboard in Resources */,
+				AA56D9052086D9E2000FBDB3 /* AppIcons.xcassets in Resources */,
+				AA56D8F22086CFF7000FBDB3 /* IJKQRCodeScanViewController.xib in Resources */,
+				AA56D8ED2086CFF7000FBDB3 /* IJKDemoInputURLViewController.xib in Resources */,
+				AA56D8F62086CFF7000FBDB3 /* IJKDemoSampleViewController.xib in Resources */,
+				AA56D8CA2086CDED000FBDB3 /* Main.storyboard in Resources */,
+				AA56D8F42086CFF7000FBDB3 /* IJKMoviePlayerViewController.xib in Resources */,
+				AA56D911208724FC000FBDB3 /* class_9_the_human_ear_01.flv in Resources */,
+				AA56D91320872504000FBDB3 /* NOW+YOONA.mp4 in Resources */,
+				AA56D9072086D9F6000FBDB3 /* LaunchImages.xcassets in Resources */,
+				AA56D9092086DA0B000FBDB3 /* MoviePlayerImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5593FD35B501AE5FC2D8EFE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77F1CD093DBE7E102DB0DEE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BilibiliPlayerDemo/Pods-BilibiliPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44FD5F414EA8A766A635F10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BilibiliPlayerDemo/Pods-BilibiliPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA56D8BB2086CDED000FBDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA56D8D22086CDED000FBDB3 /* main.m in Sources */,
+				AA56D8F12086CFF7000FBDB3 /* IJKQRCodeScanViewController.m in Sources */,
+				AA56D8F02086CFF7000FBDB3 /* IJKMoviePlayerViewController.m in Sources */,
+				AA56D9002086D29E000FBDB3 /* Barcode.m in Sources */,
+				AA56D8F32086CFF7000FBDB3 /* IJKDemoMainViewController.m in Sources */,
+				AA56D8F72086CFF7000FBDB3 /* IJKDemoSampleViewController.m in Sources */,
+				AA56D8EE2086CFF7000FBDB3 /* IJKDemoLocalFolderViewController.m in Sources */,
+				AA56D8C42086CDED000FBDB3 /* BilibiliAppDelegate.m in Sources */,
+				AA56D8F52086CFF7000FBDB3 /* IJKDemoInputURLViewController.m in Sources */,
+				AA56D8FF2086D29E000FBDB3 /* IJKDemoHistory.m in Sources */,
+				AA56D8F82086CFF7000FBDB3 /* IJKMediaControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA56D8C82086CDED000FBDB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA56D8C92086CDED000FBDB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA56D8CD2086CDED000FBDB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA56D8CE2086CDED000FBDB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA56D8D32086CDED000FBDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA56D8D42086CDED000FBDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA56D8D62086CDED000FBDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD3C78168912F887AA3606D /* Pods-BilibiliPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				GCC_PREFIX_HEADER = "$SRCROOT/BilibiliPlayerDemo/BilibiliPlayer-PrefixHeader.pch";
+				INFOPLIST_FILE = BilibiliPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA56D8D72086CDED000FBDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA8CA46F25E2AFAF8C9F2C1 /* Pods-BilibiliPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U5763E89G;
+				GCC_PREFIX_HEADER = "$SRCROOT/BilibiliPlayerDemo/BilibiliPlayer-PrefixHeader.pch";
+				INFOPLIST_FILE = BilibiliPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mountain.xiang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA56D8BA2086CDED000FBDB3 /* Build configuration list for PBXProject "BilibiliPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56D8D32086CDED000FBDB3 /* Debug */,
+				AA56D8D42086CDED000FBDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA56D8D52086CDED000FBDB3 /* Build configuration list for PBXNativeTarget "BilibiliPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA56D8D62086CDED000FBDB3 /* Debug */,
+				AA56D8D72086CDED000FBDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA56D8B72086CDED000FBDB3 /* Project object */;
+}
